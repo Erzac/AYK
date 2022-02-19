@@ -1,0 +1,163 @@
+body {
+  font-family: Arial, sans-serif;
+  background-image: url("images/Background.jpg");
+}
+h2 {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+.topbar {
+  background: rgb(12, 12, 12);
+  overflow: hidden;
+  padding-left: 20px;
+}
+
+.topbar a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #cadb2f;
+}
+
+.topbar a:hover {
+  color: white;
+}
+
+.topbar a.active {
+  color: red;
+}
+
+.main {
+  margin-left: 10px;
+  font-size: 26px;
+  padding: 0px 10px;
+}
+.maintext {
+  background-color: rgba(124, 169, 253, 0.4);
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+  padding: 3px;
+  background-color: black;
+  color: #cadb2f;
+  font-size: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.picbox {
+  padding: 10px 10px 10px 10px;
+  height: 80%;
+  width: 80%;
+}
+
+.logo-fit {
+  float: left;
+  max-width: 25%;
+  max-height: 25vh;
+  margin: auto;
+}
+
+.hd-fit {
+  float: right;
+  max-width: 35%;
+  max-height: 35vh;
+  margin: auto;
+}
+
+.jersey-fit {
+  padding: 10px 10px 10px 10px;
+  float: center;
+  height: 100%;
+  width: 100%;
+  max-width: 90%;
+  max-height: 90vh;
+  margin: auto;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 2px solid black;
+  text-align: left;
+  padding: 6px;
+}
+tr:nth-child(even) {
+  background-color: rgb(135, 206, 250, 0.7);
+}
+tr:nth-child(odd) {
+  background-color: rgb(176, 196, 222, 0.7);
+}
+
+.line {
+  text-align: center;
+  border: 1px solid black;
+  padding: 1px;
+  white-space: nowrap;
+  overflow: hidden;
+  background-color: rgba(124, 169, 253, 0.5);
+}
+.lineheader {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1px;
+  font-weight: bold;
+}
+
+.forwards {
+  text-align: center;
+  padding: 1px;
+}
+
+.defenders {
+  text-align: center;
+  padding: 1px;
+}
+
+@media screen and (max-width: 768px) {
+  .topbar {
+    padding: 2px;
+    top: 10px;
+    left: 5px;
+  }
+  .topbar a {
+    padding: 3px 4px 3px 8px;
+    font-size: 12px;
+  }
+  table {
+    font-family: arial, sans-serif;
+    font-size: 18px;
+    border-collapse: collapse;
+    max-width: 90%;
+  }
+  td,
+  th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 3px;
+  }
+  .line {
+    font-size: 16px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+}
